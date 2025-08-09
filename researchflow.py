@@ -10,8 +10,8 @@ import io
 import os
 from langchain_community.utilities import GoogleSerperAPIWrapper
 
-os.environ["SERPER_API_KEY"] = "a11063332c00893fda03b0b855a7a2830c169ef6"
-os.environ["GEMINI_API_KEY"] = "AIzaSyBZrz2hrwVib3FdJhs_hfei5-qb0oaYBGM"
+os.environ["SERPER_API_KEY"] = ""
+os.environ["GEMINI_API_KEY"] = ""
 os.environ["OTEL_SDK_DISABLED"] = "true"
 
 #geminillm = LLM(model="gemini/gemini-1.5-flash-8b")
